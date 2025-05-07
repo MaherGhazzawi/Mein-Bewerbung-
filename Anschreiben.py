@@ -6,7 +6,7 @@ print("Ich bewerbe mich bei Ihnen um einen Ausbildungsplatz als Fachinformatiker
 print("Gerne möchte ich meine Kenntnisse auf kreative Weise präsentieren – vielleicht überrascht Sie dieser Ansatz.\n")
 
 def erfahrung():
-    """Wählt zufällig eine Programmiersprache aus und gibt Informationen dazu aus."""
+   # Wählt zufällig eine Programmiersprache aus und gibt Informationen dazu aus.
     sprachen = ["Python", "C++", "HTML/CSS", "JavaScript"]
     gewaehlte_sprache = random.choice(sprachen)
 
@@ -22,7 +22,7 @@ def erfahrung():
     print()
 
 def schule():
-    """Fragen zu meinen schulischen Qualifikationen und Sprachkenntnissen."""
+  # Fragen zu meinen schulischen Qualifikationen und Sprachkenntnissen.
     while True:
         try:
             frage = int(input("Was möchten Sie über mich wissen?\n1: Schulabschlüsse\n2: Zeugnisse\n3: Sprachkenntnisse\n0: Beenden\n> "))
